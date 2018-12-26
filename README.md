@@ -6,7 +6,9 @@ Amazon beauty data
 
 # Model
 
-We generate user and item embeddings from the knowledge graph using holographic embeddings. We used the following code to get the embeddings.
-https://github.com/mana-ysh/knowledge-graph-embeddings 
-
-We input the user embeddings for each input item sequence in our recommedation model (Based on LSTM)
+### Item representation 
+Prod2vec embeddings
+### User embeddings    
+neural embeddings from neural matrix factorization
+### Model Architecture 
+Basic LSTM + User embeddings before final layer to add personalization
